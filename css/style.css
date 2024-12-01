@@ -1,0 +1,545 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/*index i pocetna */
+body{
+	font-family: Arial; sans-serif; 
+	background-image: url("../img/victorias.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+.cistac {
+	clear: both;
+}
+header {
+	background-color: #faa2c7;
+	padding: 5px;
+	height: 20px;
+	color: #ffffff;
+	letter-spacing: 2px;
+	font-size: 22px;
+	font-weight: bold;
+}
+header a img {
+	height: 20px;
+	width: 20px;
+	padding-left: 1300px;
+}
+.naslov h1 {
+	margin-top: 230px;
+	padding: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 70px;
+	letter-spacing: 4px;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Great Vibes', cursive;
+}
+.naslov h2 {
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 70px;
+}
+#okvir {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #f1ed60;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 5px;
+	font-style: italic;
+	background-color: #f1ed60;
+	margin-top: 40px;
+	font-size: 16px;
+}
+#okvir:hover{
+	background-color: #f9ed0d;
+	transform:scale(1.1);
+	border-color: #000;
+}
+#okvir a {
+	color: #e74074;
+}
+#navigacija ul li a {
+	text-decoration: none;
+	size: 10px;
+	padding-right: 3px;
+}
+#navigacija ul {
+	list-style: none;
+	display: flex;
+} 
+#navigacija ul li {
+	display: inline;
+	margin: 0px 10px;
+} 
+#pocetna li a {
+	color: #fff;
+	padding-left: 3px;
+}
+#pocetna:hover{
+	transform:scale(1.1);
+}
+#onama li a {
+	color: #eb639a;
+}
+#onama:hover{
+	transform:scale(1.1);
+}
+#autor li a {
+	color: #cb1961;
+}
+#autor:hover{
+	transform:scale(1.1);
+}
+#proizvodi li a {
+	text-decoration: none;
+}
+#proizvodi:hover{
+	transform:scale(1.1);
+}
+#proizvodi a {
+	color: #9d104a;
+}
+#blok {
+	height: 230px;
+	margin-top: 200px;
+	background-color: #d4d0d0;
+	font-size: 30px;
+	font-weight: 200;
+	border-top: 2px solid #ffffff;
+	text-indent: 200px;
+	padding-top: 80px;
+}
+#blok p {
+	padding-right: 150px;
+}
+#blok img {
+	height: 100px;
+	padding-right: 250px;
+}
+#slika img {
+	height: 400px;
+	width: 1000px;
+	padding-top: 0px;
+	margin-top: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 25px  #000;
+}
+.bela {
+	background-color: #f7e2ee;
+	height: 3500px;
+}
+.bela2 {
+    background-color: #f7e2ee;
+	height: 1400px;
+}
+.bela3 {
+	background-color: #f7e2ee;
+	height: 2800px;
+}
+.bela4 {
+	background-color: #f7e2ee;
+	height: 950px;
+}
+.bela h1 {
+	padding-top: 80px;
+	font-size: 50px;
+	letter-spacing: 8px;
+	font-style: calibri;
+	border-bottom: 5px dotted #000;
+	color: #000;
+	font-family: 'Great Vibes', cursive;
+}
+#favorit img {
+	height: 600px;
+	width: 50%;
+	margin-top: 30px;
+	box-shadow: 0px 0px 25px #000;
+	border-radius: 10px;
+}
+#favorit p {
+	font-family: 'Great Vibes', cursive;
+	letter-spacing: 2px;
+	font-size: 30px;
+	color: #000;
+	margin-top: 30px;
+}
+#kupci p {
+	color: #000;
+	font-size: 40px;
+	margin-top: 170px;	
+}
+#okvir2 {
+	border-style: solid;
+	border-width: 4px;
+	border-color: #f1ed60;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 5px;
+	font-style: italic;
+	background-color: #f1ed60;
+	margin-top: 40px;
+	font-size: 18px;
+}
+#okvir2:hover{
+	background-color: #f9ed0d;
+	transform:scale(1.1);
+	border-color: #000;
+}
+#okvir2 a {
+	color: #e74074;
+}
+#vanila img {
+	width: 50%;
+	margin-top: 120px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 25px  #000;
+}
+#bare {
+	height: 230px;
+	margin-top: 40px;
+	background-color: #fff;
+	font-size: 30px;
+	font-weight: 200;
+	border-top: 2px solid #cdc369;
+	border-bottom: 2px solid #cdc369;
+	text-indent: 200px;
+	padding-top: 80px;
+}
+#bare h2 {
+	text-align: left;
+	font-family: 'Great Vibes', cursive;
+	letter-spacing: 2px;
+}
+#bare p {
+	text-align: left;
+	padding-top: 10px;
+}
+#musterija img {
+	height: 650px;
+	width: 50%;
+	padding-top: 0px;
+	margin-top: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 25px  #000;
+}
+#musterija p {
+	padding-top: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+}
+footer {
+	background-image: url("../img/pink2.jpg");
+	padding: 5px;
+	height: 300px;
+	letter-spacing: 2px;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 100px;
+	font-style: italic;
+	padding: 20px 0px;
+}
+footer ul li a {
+	float: left;
+	color: #000;
+}
+footer h2 {
+	padding-right: 1060px;
+	margin-top: 50px;
+	padding-bottom: 15px;
+	color: #000;
+}
+footer ul {
+	padding-left: 30px;
+	list-style-type: circle;
+	color: #f7accd;
+}
+#logo img {
+	height: 140px;
+	text-align: center;
+	margin-top: -150px;
+}
+.mreze {
+	display: flex;
+	float: right;
+	color: #000;
+}
+.mreze ul {
+	display: flex;
+	list-style: none;
+	padding-right: 30px;
+	font-size: 50px;
+}
+.mreze ul li a {
+	padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*kolekcija */
+
+
+
+
+
+
+
+
+
+
+
+
+#prodaja h1 {
+	padding-top: 120px;
+	font-size: 30px;
+	letter-spacing: 4px;
+	font-style: Arial;
+	color: #9abfcf;
+	font-family: 'Great Vibes', cursive;
+	text-align: left;
+	margin-left: 200px;
+}
+#blok2 ul li img {
+	height: 380px;
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 70px;
+	border-radius: 10px;
+}
+#blok2 ul {
+	display: flex;
+	list-style: none;
+	padding-left: 125px;
+}
+#blok2 ul li p {
+	font-size: 18px;
+	padding-left: 60px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+#blok2 ul li img:hover {
+	transform:scale(1.1);
+}
+#blok3 ul li img {
+	height: 380px;
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 70px;
+	border-radius: 10px;
+}
+#blok3 ul {
+	display: flex;
+	list-style: none;
+	padding-left: 125px;
+}
+#blok3 ul li p {
+	font-size: 18px;
+	padding-left: 60px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+#blok3 ul li img:hover {
+	transform:scale(1.1);
+}
+#blok4 ul li img {
+	height: 380px;
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 70px;
+	border-radius: 10px;
+}
+#blok4 ul {
+	display: flex;
+	list-style: none;
+	padding-left: 125px;
+}
+#blok4 ul li p {
+	font-size: 18px;
+	padding-left: 60px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+#blok4 ul li img:hover {
+	transform:scale(1.1);
+}
+#kupci2 ul li img {
+	height: 380px;
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 70px;
+	border-radius: 10px;
+}
+#kupci2 ul {
+	display: flex;
+	list-style: none;
+	padding-left: 125px;
+}
+#kupci2 ul li p {
+	font-size: 35px;
+	padding-left: 60px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+#kupci2 ul li img:hover {
+	transform:scale(1.1);
+}
+#kupci2 h2 {
+	color: #9abfcf;
+	font-style: italic;
+	font-family: 'Great Vibes', cursive;
+	margin-top: 30px;
+	font-size: 35px;
+}
+
+
+
+
+
+
+
+
+/* o nama */
+
+
+
+
+
+
+
+
+
+#text {
+	text-align: left;
+	padding-top: 40px;
+	padding-left: 50px;
+}
+#text h1 {
+	margin-top: 80px;
+	font-style: italic;
+	text-decoration: underline #ff0096;
+	letter-spacing: 5px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+#text p {
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-bottom: 25px;
+}
+#radnja img {
+	float: right;
+	padding-right: 30px;
+	margin-top: -300px;
+}
+#blok10 img {
+	height: 200px;
+	width: 20%;
+	padding-top: 20px;
+}
+#vest {
+	width: 850px;
+	margin: 100px auto;
+	border: 5px solid #f9f1f6;
+	background-color: #f9f1f6;
+	
+}
+.svet {
+	width: 403px;
+	float: left;
+	margin: 10px;
+	border: 1px solid #ca51aa;
+	height: 400px;
+}
+.svet img {
+	height: 100px;
+	width: 82px;
+	float: left;
+	margin-top: 10px;
+	padding-left: 18px;
+}
+.svet p {
+	margin-top: 45px;
+	float: left;
+	text-align: left;
+	padding-left: 8px;
+	size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #000;
+}
+.cistac {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+/* autor */
+
+
+
+
+
+#text0 {
+	text-align: center;
+	padding-top: 100px;
+	padding-left: 50px;
+}
+#text0 h1 {
+	margin-top: 40px;
+	letter-spacing: 5px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	padding-bottom: 10px;
+	padding-left: 400px;
+	color: #0d2f8d;
+}
+#text0 h2 {
+	margin-top: 10px;
+	letter-spacing: 5px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 30px;
+	padding-bottom: -40px;
+	padding-left: 400px;
+	color: #90a8ee;
+}
+#text0 p {
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-bottom: 25px;
+	padding-left: 440px;
+}
+#ja img {
+	float: left;
+	padding-right: 30px;
+	margin-top: -320px;
+	height: 540px;
+	width: 35%; 
+	padding-left: 60px;
+}
